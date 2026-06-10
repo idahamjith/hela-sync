@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@utility font-sinhala-serif {
+  font-family: "Abhaya Libre", "FMAbhaya", Georgia, serif;
+}
+
+@utility font-sinhala-sans {
+  font-family: "Noto Sans Sinhala", "Iskolapotha", "Inter", sans-serif;
+}

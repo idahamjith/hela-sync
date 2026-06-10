@@ -1,0 +1,6 @@
+{
+  "name": "Sinhala Font and Unicode Converter",
+  "description": "A real-time, offline-first converter for Sinhala Unicode, Singlish transliteration, and legacy font encodings like FM Abhaya and Ispara.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
